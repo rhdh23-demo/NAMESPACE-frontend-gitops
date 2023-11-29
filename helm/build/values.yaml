@@ -1,0 +1,15 @@
+app:
+  name: NAMESPACE-poi-map-app
+  namespace: NAMESPACE
+  cluster: .apps.rosa-pzz6v.9nln.p1.openshiftapps.com
+
+git:
+  branch: main
+  repo: https://github.com/rhdh23-demo/NAMESPACE-frontend
+  org: rhdh23-demo
+  name: NAMESPACE-frontend
+
+image:
+  host: image-registry.openshift-image-registry.svc:5000
+  name: NAMESPACE/poi-map-app
+  tag: latest
